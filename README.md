@@ -61,7 +61,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
       <th></th><th colspan="6">Post/Reply Counts</th>
     </tr> 
     <tr>
-      <th>Date</th><th>Total</th><th>TM1</th><th>TM2</th><th>TM3</th><th>TM4</th><th>TM5</th>
+      <th>Date</th><th>Total</th><th>Jianqiao Liu</th><th>Wen-Chih Li</th><th>Guang-Zheng Lee</th><th>Zicheng Gu</th><th>Zhiping Li</th>
     </tr>
   </thead> 
   <tbody>
@@ -83,7 +83,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
       <th colspan="2"></th><th colspan="5">In attendance?</th>
     </tr> 
     <tr>
-      <th>Date</th><th>Duration (min)</th><th>TM1</th><th>TM2</th><th>TM3</th><th>TM4</th><th>TM5</th>
+      <th>Date</th><th>Duration (min)</th><th>Jianqiao Liu</th><th>Wen-Chih Li</th><th>Guang-Zheng Lee</th><th>Zicheng Gu</th><th>Zhiping Li</th>
     </tr>
   </thead> 
   <tbody>
@@ -105,7 +105,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
       <th colspan="2"></th><th colspan="5">In attendance?</th><th></th>
     </tr> 
     <tr>
-      <th>Date</th><th>Duration (min)</th><th>TM1</th><th>TM2</th><th>TM3</th><th>TM4</th><th>TM5</th><th>Notes</th>
+      <th>Date</th><th>Duration (min)</th><th>Jianqiao Liu</th><th>Wen-Chih Li</th><th>Guang-Zheng Lee</th><th>Zicheng Gu</th><th>Zhiping Li</th>
     </tr>
   </thead> 
   <tbody>
