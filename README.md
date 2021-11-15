@@ -123,11 +123,11 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
 #### Context Statements
 | Team Member | Context Statement |
 |-------------|-------------------|
-|TM1| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|TM2| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|TM3| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|TM4| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|TM5| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 
 ### Retrospective
 
@@ -158,7 +158,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
       <th colspan="2"></th><th colspan="6">Story Point Counts</th><th colspan="2"></th>
     </tr> 
     <tr>
-      <th>Issue</th><th>Linked PR</th><th>Total</th><th>TM1</th><th>TM2</th><th>TM3</th><th>TM4</th><th>TM5</th><th>% Complete</th><th>Notes</th>
+      <th>Issue</th><th>Linked PR</th><th>Total</th><th>Jianqiao Liu</th><th>Wen-Chih Li</th><th>Guang-Zheng Lee</th><th>Zicheng Gu</th><th>Zhiping Li</th><th>% Complete</th><th>Notes</th>
     </tr>
   </thead> 
   <tbody>
