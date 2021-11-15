@@ -5,11 +5,11 @@ This repository implements SpeedScore, a web app that enables users to log, anal
 You can access our team's deployed app at [this Heroku site](https://ourapp.herokuapp.com)
 
 ## Team members
-1. **Team leader:** *name (GitHub Id)*
-1. *Team member 2 name (GitHub Id)*
-1. *Team member 3 name (GitHub Id)*
-1. *Team member 4 name (GitHub Id)*
-1. *Team member 5 name (GitHub Id)*
+1. **Team leader:** *Jianqiao Liu (Jianqiao-WSU)*
+1. *Team member 2 Wen-chi Li (Jimmy-WSU)*
+1. *Team member 3 Guang-Zheng Lee (zheng0258)*
+1. *Team member 4 Zicheng Gu (gzcccc1)*
+1. *Team member 5 Zhiping Li (ZhipingLi)*
 
 ## Milestone 0 (Due 11/19)
 
