@@ -6,7 +6,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
 
 ## Team members
 1. **Team leader:** *Jianqiao Liu (Jianqiao-WSU)*
-1. *Team member 2 Wen-chi Li (Jimmy-WSU)*
+1. *Team member 2 Wen-Chih Li (Jimmy-WSU)*
 1. *Team member 3 Guang-Zheng Lee (zheng0258)*
 1. *Team member 4 Zicheng Gu (gzcccc1)*
 1. *Team member 5 Zhiping Li (ZhipingLi)*
