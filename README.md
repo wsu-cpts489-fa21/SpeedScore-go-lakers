@@ -88,9 +88,9 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
   </thead> 
   <tbody>
     <tr>
-      <td>11/15/21</td><td>7</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td><td></td>
+      <td>11/15/21</td><td>7</td><td>&check;</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>7</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>7</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
     </tr>
   </tbody>
 </table>
