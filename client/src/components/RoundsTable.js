@@ -21,7 +21,7 @@ class RoundsTable extends React.Component {
                 "0" + this.props.rounds[r].seconds :
                 this.props.rounds[r].seconds) + ")"}
           </td>
-          <td><button onClick={this.props.menuOpen ? null : () => 
+          <td><button id={'editBtn' + r}  onClick={this.props.menuOpen ? null : () => 
                   this.props.initiateEditRound(r)}>
                 <FontAwesomeIcon icon="eye"/> 
                 <FontAwesomeIcon icon="edit"/> 

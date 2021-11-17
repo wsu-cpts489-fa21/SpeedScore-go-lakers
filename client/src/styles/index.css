@@ -402,3 +402,17 @@ button::-moz-focus-inner {
 .cell-align-middle {
   vertical-align: middle;
 }
+
+/*************************************************************************
+* CSS CLASSES FOR POP UP MODAL
+*************************************************************************/
+.modal-content{
+  margin-top: 60px;
+}
+
+.pop-up-modal{
+  position: absolute;
+  top: 200px;
+  opacity: 100 !important;
+  display: block;
+}

@@ -64,7 +64,7 @@ class RoundForm extends React.Component {
         const newRound = {...this.state};
         delete newRound.btnIcon;
         delete newRound.btnLabel;
-        const res = await this.props.saveRound(newRound);
+        const res = await this.props.saveRound(newRound,this.props.editId);
         this.props.toggleModalOpen();
         this.props.setMode(RoundsMode.ROUNDSTABLE);
     }
@@ -164,7 +164,7 @@ class RoundForm extends React.Component {
                 </div>
               </div>
               <div className="mode-page-btn-container">
-                <button type="submit" className="mode-page-btn action-dialog action-button">
+                <button id="submit" type="submit" className="mode-page-btn action-dialog action-button">
                     <FontAwesomeIcon icon={this.state.btnIcon}  className={this.state.btnIcon == "spinner" ? "fa-spin" : ""}/>
                     <span>&nbsp;{this.state.btnLabel}</span>
                 </button>
