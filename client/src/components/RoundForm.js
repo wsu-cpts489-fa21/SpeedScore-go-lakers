@@ -164,7 +164,7 @@ class RoundForm extends React.Component {
                 </div>
               </div>
               <div className="mode-page-btn-container">
-                <button type="submit" className="mode-page-btn action-dialog action-button">
+                <button id="submit" type="submit" className="mode-page-btn action-dialog action-button">
                     <FontAwesomeIcon icon={this.state.btnIcon}  className={this.state.btnIcon == "spinner" ? "fa-spin" : ""}/>
                     <span>&nbsp;{this.state.btnLabel}</span>
                 </button>

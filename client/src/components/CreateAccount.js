@@ -335,7 +335,7 @@ class CreateAccount extends React.Component {
               </div>
               </div>
               <div className="mode-page-btn-container">
-                <button type="submit" className="mode-page-btn action-dialog action-button">
+                <button type="submit" className="mode-page-btn action-dialog action-button" id="create">
                     <FontAwesomeIcon icon="user-plus"/>
                     &nbsp;Create Account
                 </button>
