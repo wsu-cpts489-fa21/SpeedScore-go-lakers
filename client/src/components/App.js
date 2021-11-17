@@ -3,7 +3,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faWindowClose, faEdit, faCalendar, 
         faSpinner, faSignInAlt, faBars, faTimes, faSearch,
         faSort, faTrash, faEye, faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import { faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faGoogle} from '@fortawesome/free-brands-svg-icons';
 import NavBar from './NavBar.js';
 import ModeTabs from './ModeTabs.js';
 import LoginPage from './LoginPage.js';
@@ -16,7 +16,7 @@ import AppMode from './AppMode.js';
 
 library.add(faWindowClose,faEdit, faCalendar, 
             faSpinner, faSignInAlt, faBars, faTimes, faSearch,
-            faSort, faTrash, faEye, faUserPlus, faGithub);
+            faSort, faTrash, faEye, faUserPlus, faGithub, faGoogle);
 
 class App extends React.Component {
 
@@ -211,15 +211,9 @@ class App extends React.Component {
 
   }
 
-  deleteRound = (id) => {
-    const newRounds = [...this.state.userData.rounds];
-    let r;
-    for (r = 0; r < newRounds.length; ++r) {
-        if (newRounds[r].roundNum === this.state.deleteId) {
-            break;
-        }
-    }
-    delete newRounds[r];
+  deleteRound = async(deleteId) => {
+    let newRounds = [...this.state.userData.rounds];
+    newRounds.splice(deleteId,1)
     const newUserData = {
       accountData: this.state.userData.accountData,
       identityData: this.state.userData.identityData,
@@ -227,8 +221,23 @@ class App extends React.Component {
       rounds: newRounds, 
       roundCount: this.state.userData.roundCount
     }
-    localStorage.setItem(newUserData.accountData.email,JSON.stringify(newUserData));
-    this.setState({userData: newUserData});
+    const url = "/rounds/" + this.state.userData.accountData.id;
+    let res = await fetch(url, {
+      method: 'DELETE',
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                    },
+              method: 'DELETE',
+              body: JSON.stringify({index: deleteId})
+    }); 
+    if (res.status == 201) { 
+      this.setState({userData: newUserData}); 
+      return("The round is deleted.");
+    } else { 
+      const resText = await res.text();
+      return("The Round could not be deleted. " + resText);
+    }
   }
 
   render() {

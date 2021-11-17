@@ -4,13 +4,15 @@ import RoundsMode  from './RoundsMode.js';
 import RoundsTable from './RoundsTable.js';
 import RoundForm from './RoundForm.js';
 import FloatingButton from './FloatingButton.js'
+import PopUpModal from './PopUpModal.js'
 
 class RoundsPage extends React.Component {
     constructor(props) {
             super(props);
             this.state = {mode: RoundsMode.ROUNDSTABLE,
                           deleteId: -1,
-                          editId: -1};        
+                          editId: -1,
+                         showPopUpModal: false};       
     }
 
     setMode = (newMode) => {
@@ -24,11 +26,19 @@ class RoundsPage extends React.Component {
     }
     
     initiateDeleteRound = (val) => {
-        this.setState({deleteId: val},
-        () => alert("Confirm delete goes here!"));
+        console.log('gogogogoo')
+        this.setState({deleteId: val,
+                    showPopUpModal :true   })
     }
 
     render() {
+        const choices = {
+            Confirm: () => {
+                this.props.deleteRound(this.state.deleteId);
+                this.setState({showPopUpModal : false})
+            },
+            Cancel: () => {this.setState({showPopUpModal : false})}
+          }
         switch (this.state.mode) {
         case RoundsMode.ROUNDSTABLE: 
             return (
@@ -48,6 +58,7 @@ class RoundsPage extends React.Component {
                         menuOpen={this.props.menuOpen}
                         action={()=>this.setState({mode: RoundsMode.LOGROUND},
                                     this.props.toggleModalOpen)} />
+                    {this.state.showPopUpModal && <PopUpModal text="Are you sure to delete?" choices={choices}/>}
             </>
             );
         case RoundsMode.LOGROUND:
