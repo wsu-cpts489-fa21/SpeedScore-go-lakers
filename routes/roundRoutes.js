@@ -70,6 +70,7 @@ roundRoute.get('/rounds/:userId', async(req, res) => {
   
 //UPDATE round route: Updates a specific round for a given user
 //in the users collection (PUT)
+//TO DO: Implement this route
 roundRoute.put('/rounds/:userId', async (req, res, next) => {
   const index = req.body.editId;
   console.log("in /rounds (PUT) route with params = " + 
@@ -110,9 +111,30 @@ roundRoute.put('/rounds/:userId', async (req, res, next) => {
   } 
 });
 
-
 //DELETE round route: Deletes a specific round for a given user
 //in the users collection (DELETE)
 //TO DO: Implement this route
+roundRoute.delete('/rounds/:userId', async (req, res, next) => {
+  console.log("in /rounds (DELTE) route with params = " + 
+              JSON.stringify(req.params) + " and body = " + 
+              JSON.stringify(req.body.index));
+  try {
+    let thisUser = await User.findOne({"accountData.id": req.params.userId});
+    thisUser.rounds.splice(req.body.index,1)
+    const status = await User.updateOne(
+      {"accountData.id": req.params.userId},
+      {$set: {rounds: thisUser.rounds}});
+    if (status.modifiedCount != 1) {
+      return res.status(400).send("Round not deleted to database. "+
+        "User '" + req.params.userId + "' does not exist.");
+    } else {
+      return res.status(201).send("Round successfully deleted to database.");
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(400).send("Round not deleted to database. " +
+      "Unexpected error occurred: " + err);
+  } 
+});
 
 export default roundRoute;

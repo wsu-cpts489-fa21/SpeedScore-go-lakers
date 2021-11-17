@@ -403,9 +403,6 @@ button::-moz-focus-inner {
   vertical-align: middle;
 }
 
-/*************************************************************************
-* CSS CLASSES FOR POP UP MODAL
-*************************************************************************/
 .modal-content{
   margin-top: 60px;
 }
