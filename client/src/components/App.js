@@ -179,15 +179,9 @@ class App extends React.Component {
     }
   }
 
-  updateRound = (newRoundData) => {
-    const newRounds = [...this.state.userData.rounds];
-    let r;
-    for (r = 0; r < newRounds.length; ++r) {
-        if (newRounds[r].roundNum === newRoundData.roundNum) {
-            break;
-        }
-    }
-    newRounds[r] = newRoundData;
+  updateRound = async(newRoundData,editId) => {
+    let newRounds = [...this.state.userData.rounds];
+    newRounds[editId] = newRoundData;
     const newUserData = {
       accountData: this.state.userData.accountData,
       identityData: this.state.userData.identityData,
@@ -195,8 +189,26 @@ class App extends React.Component {
       rounds: newRounds, 
       roundCount: this.state.userData.roundCount
     }
-    localStorage.setItem(newUserData.accountData.email,JSON.stringify(newUserData));
-    this.setState({userData: newUserData}); 
+    let newUserData1 = {...newUserData}
+    newUserData1.editId = editId
+    const url = "/rounds/" + this.state.userData.accountData.id;
+    let res = await fetch(url, {
+      method: 'PUT',
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                    },
+              method: 'PUT',
+              body: JSON.stringify(newUserData1)
+    }); 
+    if (res.status == 201) { 
+      this.setState({userData: newUserData}); 
+      return("New round updated.");
+    } else { 
+      const resText = await res.text();
+      return("New Round could not be updated. " + resText);
+    }
+
   }
 
   deleteRound = (id) => {

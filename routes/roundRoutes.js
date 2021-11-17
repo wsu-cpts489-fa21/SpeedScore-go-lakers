@@ -70,7 +70,46 @@ roundRoute.get('/rounds/:userId', async(req, res) => {
   
 //UPDATE round route: Updates a specific round for a given user
 //in the users collection (PUT)
-//TO DO: Implement this route
+roundRoute.put('/rounds/:userId', async (req, res, next) => {
+  const index = req.body.editId;
+  console.log("in /rounds (PUT) route with params = " + 
+              JSON.stringify(req.params) + " and body = " + 
+              JSON.stringify(req.body));
+  if (!req.body.rounds[index].hasOwnProperty("date") || 
+      !req.body.rounds[index].hasOwnProperty("course") || 
+      !req.body.rounds[index].hasOwnProperty("type") ||
+      !req.body.rounds[index].hasOwnProperty("holes") || 
+      !req.body.rounds[index].hasOwnProperty("strokes") ||
+      !req.body.rounds[index].hasOwnProperty("minutes") ||
+      !req.body.rounds[index].hasOwnProperty("seconds") || 
+      !req.body.rounds[index].hasOwnProperty("notes")) {
+    //Body does not contain correct properties
+    return res.status(400).send("PUT request on /rounds formulated incorrectly." +
+      "Body must contain all 8 required fields: date, course, type, holes, strokes, " +
+      "minutes, seconds, notes.");
+  }
+  try {
+    const round = new Round(req.body.rounds[index]);
+    const error = round.validateSync();
+    if (error) { //Schema validation error occurred
+      return res.status(400).send("Round not updated to database. " + error.message);
+    }
+    const status = await User.updateOne(
+      {"accountData.id": req.params.userId},
+      {$set: {rounds:req.body.rounds}});
+    if (status.modifiedCount != 1) {
+      return res.status(400).send("Round not updated to database. "+
+        "User '" + req.params.userId + "' does not exist.");
+    } else {
+      return res.status(201).send("Round successfully updated to database.");
+    }
+  } catch (err) {
+    console.log(err);
+    return res.status(400).send("Round not updated to database. " +
+      "Unexpected error occurred: " + err);
+  } 
+});
+
 
 //DELETE round route: Deletes a specific round for a given user
 //in the users collection (DELETE)
