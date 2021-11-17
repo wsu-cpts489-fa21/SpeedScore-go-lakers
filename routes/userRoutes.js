@@ -111,6 +111,7 @@ userRoute.put('/users/:userId',  async (req, res, next) => {
     }
     const validAccountProps = ['id', 'password', 'securityQuestion', 'securityAnswer'];
     const validIdentityProps = ['displayName', 'profilePic'];
+    const validRoundProps = ['date','course','type', 'holes','strokes', 'minutes', 'seconds', 'notes', '_id'];
     const validSGProps = ['bio','homeCourse','personalBest', 'firstRound','clubs', 'clubComments'];
     for (const bodyProp in req.body) {
         if (bodyProp === 'accountData') {
@@ -140,11 +141,25 @@ userRoute.put('/users/:userId',  async (req, res, next) => {
                       "'bio', 'homeCourse', 'personalBest', 'clubs', clubComments'");
                 }
             }
-        } else { 
+        } else if (bodyProp === 'rounds') {
+          // for (const validRoundProps in req.body.rounds) {
+          //     if (!validSGProps.includes(validRoundProps)) {
+          //         return res.status(400).send(
+          //           "users/ PUT request formulated incorrectly." +
+          //           "Only the following props are allowed in rounds: " +
+          //           "'bio', 'homeCourse', 'personalBest', 'clubs', clubComments'");
+          //     }
+          // }
+        } else if (bodyProp === '__v') {
+
+        } else if (bodyProp === '_id') {
+          
+        }
+         else { 
             return res.status(400).send(
                 "users/ PUT request formulated incorrectly." +
                 "Only the following top-level props are allowed in user data: " +
-                "'accountData', 'identityData', 'speedgolfData'");
+                "'accountData', 'identityData', 'rounds', 'speedgolfData'");
           }
     }
     try {

@@ -5,7 +5,17 @@ import profilePic from '../images/DefaultProfilePic.jpg';
 import AppMode from './AppMode';
 
 class NavBar extends React.Component {
-    
+  constructor(props) {
+    super(props);
+    this.state = {
+      mode: this.props.mode
+    };
+    this.showProfile = this.showProfile.bind(this);
+  }
+  showProfile = () => {
+    this.props.setMode(AppMode.PROFILESETTINGS);
+  }
+
     render() {
        return (
         <header className="navbar">  
@@ -34,6 +44,7 @@ class NavBar extends React.Component {
                     <FontAwesomeIcon icon="search" className="navbar-btn-icon"/>
                 </button>
                 <button id="profileBtn" type="button" 
+                  onClick={() => this.showProfile()} 
                   className="navbar-btn navbar-profile-btn" 
                   aria-label="Account and Profile Settings"
                   style={{backgroundImage: this.props.userData.identityData.profilePic === "" ? 

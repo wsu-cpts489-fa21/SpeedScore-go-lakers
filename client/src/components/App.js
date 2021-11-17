@@ -11,6 +11,7 @@ import FeedPage from './FeedPage.js';
 import RoundsPage from './RoundsPage.js';
 import CoursesPage from './CoursesPage.js';
 import BuddiesPage from './BuddiesPage.js';
+import ProfileSettings from './ProfileSettings.js';
 import SideMenu from './SideMenu.js';
 import AppMode from './AppMode.js';
 
@@ -23,6 +24,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {mode: AppMode.LOGIN,
+                  modeTemp: AppMode.LOGIN,
                   menuOpen: false,
                   modalOpen: false,
                   userData: {
@@ -90,6 +92,10 @@ class App extends React.Component {
    //User interface state management methods
    
   setMode = (newMode) => {
+    let modeTemp = this.state.mode
+    if (newMode === AppMode.PROFILESETTINGS) {
+      this.setState({modeTemp: modeTemp});
+    }
     this.setState({mode: newMode});
   }
 
@@ -146,9 +152,23 @@ class App extends React.Component {
     }
   }
 
-  updateUserData = (data) => {
-   localStorage.setItem(data.accountData.email,JSON.stringify(data));
-   this.setState({userData: data});
+  updateUserData = async(data) => {
+    localStorage.setItem(data.accountData.email,JSON.stringify(data));
+    this.setState({userData: data});
+    const url = '/users/' + data.accountData.id;
+    const res = await fetch(url, {
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+        method: 'PUT',
+        body: JSON.stringify(data)}); 
+    if (res.status == 201) { 
+        return("Account was updated with email " + data.accountData.id);
+    } else { 
+        const resText = await res.text();
+        return("Account was not updated. " + resText);
+    }
   }
 
   //Round Management methods
@@ -244,6 +264,7 @@ class App extends React.Component {
     return (
       <>
         <NavBar mode={this.state.mode}
+                setMode={this.setMode} 
                 menuOpen={this.state.menuOpen}
                 toggleMenuOpen={this.toggleMenuOpen}
                 modalOpen={this.state.modalOpen}
@@ -286,7 +307,15 @@ class App extends React.Component {
             <BuddiesPage modalOpen={this.state.modalOpen}
                         toggleModalOpen={this.toggleModalOpen} 
                         menuOpen={this.state.menuOpen}
-                        userId={this.state.userId}/>
+                        userId={this.state.userId}/>,
+          ProfileSettingMode:
+            <ProfileSettings modalOpen={this.state.modalOpen}
+                        toggleModalOpen={this.toggleModalOpen} 
+                        menuOpen={this.state.menuOpen}
+                        userData={this.state.userData}
+                        modeTemp={this.state.modeTemp}
+                        setMode={this.setMode}
+                        updateUserData={this.updateUserData}/>
         }[this.state.mode]
         }
       </>
