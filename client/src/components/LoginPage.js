@@ -21,7 +21,9 @@ class LoginPage extends React.Component {
                       loginBtnIcon: "sign-in",
                       loginBtnLabel: "Log In",
                       githubIcon: ['fab','github'],
-                      githubLabel: "Sign in with GitHub"
+                      githubLabel: "Sign in with GitHub",
+                      googleIcon: ['fab','google'],
+                      googleLabel: "Sign in with Google",
                     };
     }
 
@@ -44,7 +46,7 @@ class LoginPage extends React.Component {
         } 
     } 
 
-    handleSubmit = (e) => {
+    handleSubmit = async (e) => {
         e.preventDefault();
             //Is the email field valid
             const eValid = !this.email.current.validity.typeMismatch && 
@@ -60,25 +62,15 @@ class LoginPage extends React.Component {
             return;
         }
         //Can we log in user?
-        const emailHold = this.email.current.value;
-        const pwHold = this.password.current.value;
-        this.setState({loginBtnIcon: 'spinner',
-                       loginBtnLabel: 'Logging In...'},
-                       () => this.handleSubmitCallback(eValid,pValid,
-                               emailHold, pwHold));
-    }
-
-    handleSubmitCallback = async(eValid, pValid,email,password) => {
-        const aValid = await this.props.authenticateUser(email,password);
+        const aValid = await this.props.authenticateUser(this.email.current.value,this.password.current.value);
         if (aValid) {
             window.open('/', '_self'); //App.componentDidMount() takes it from here
         } else { //at least one field is invalid--trigger re-render of LoginPage component
             this.setState({emailValid: eValid,
                             passwordValid: pValid,
-                            accountValid: aValid,
-                            loginBtnIcon: "sign-in",
-                            loginBtnLabel: "Log In"});
+                            accountValid: aValid});
         } 
+    
     }
 
     handleOAuthLogin = (provider) => {
@@ -185,10 +177,9 @@ class LoginPage extends React.Component {
                     </div>
                 <p></p>
                 <button type="submit" id="loginBtn" 
-                        className="btn btn-primary fm-primary-btn">                    
-                        <FontAwesomeIcon icon={this.state.loginBtnIcon}
-                                         className={this.state.loginBtnIcon == "spinner" ? "fa-spin" : ""}/>
-                        &nbsp;{this.state.loginBtnLabel}
+                        className="btn btn-primary fm-primary-btn">
+                    <FontAwesomeIcon icon="sign-in-alt"/>
+                        &nbsp;Log In
                 </button>
                 </form>
                 <ul className="nav justify-content-center">
@@ -203,11 +194,19 @@ class LoginPage extends React.Component {
                 </li>
                 </ul>
                 <div className="centered">
-                <button type="button" className="btn btn-github"
+                <button id="githubLoginBtn"
+                  type="button" className="btn btn-github"
                   onClick={() => this.handleOAuthLoginClick("github")}>
                   <FontAwesomeIcon icon={this.state.githubIcon} 
                                    className={this.state.githubIcon == "spinner" ? "fa-spin" : ""}/>
                   &nbsp;{this.state.githubLabel}
+                </button>
+                &nbsp;
+                <button id="googleLoginBtn" type="button" className="btn btn-google"
+                  onClick={() => this.handleOAuthLoginClick("google")}>
+                  <FontAwesomeIcon icon={this.state.googleIcon} 
+                                   className={this.state.googleIcon == "spinner" ? "fa-spin" : ""}/>
+                  &nbsp;{this.state.googleLabel}
                 </button>
                 </div>
             </div>  
