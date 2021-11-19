@@ -39,11 +39,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 #### Context Statements
 | Team Member | Context Statement |
 |-------------|-------------------|
-|Jianqiao Liu| In this milestone, I finish these jobs: 
-Clone project starter repo into your team's GitHub repo; 
-Set Up MongoDB Cloud Atlas Database; 
-Edit account and profile settings; 
-Do code review of other function. |
+|Jianqiao Liu| In this milestone, I finish these jobs: Clone project starter repo into your team's GitHub repo; Set Up MongoDB Cloud Atlas Database; Edit account and profile settings; Do code review of other function. |
 |Wen-Chih Li| <In this milestone, I did the task "Add Google OAuth to the app" and help Jianqiao with the task "As a user, I can edit my account and profile settings so that I can customize my user experience". Furthermore, collaborated with Guang-Zheng Lee to do the task "Deploy app to Heroku".> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
