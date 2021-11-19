@@ -103,7 +103,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
       <td>11/15/21</td><td>7</td><td>&check;</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td>
     </tr>
     <tr>
-      <td>11/17/21</td><td>9</td><td>&check;</td><td>&check;</td><td>&check;</td>&check;<td></td><td>&check;</td>
+      <td>11/17/21</td><td>9</td><td>&check;</td><td>&check;</td><td>&check;</td>&check;<td>&check;</td><td>&check;</td>
     </tr>
     <tr><td align="right"><b>Totals:</b></td><td><b>16</b></td><td><b>2</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td>
     </tr>
