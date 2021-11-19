@@ -122,8 +122,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
 |Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 
 ### Retrospective
-
-[Link to Recording](https://drive.google.com/drive/folders/1jmIdB9_SU7nkyA6-hksPpbDP6e38pNxN?usp=sharing)
+[11/15/2021](https://drive.google.com/file/d/1qyPbl5Z8MhrwLcovys6oPZXovPbFZxbn/view?usp=sharing)
 
 #### What went well
   - Item 1
