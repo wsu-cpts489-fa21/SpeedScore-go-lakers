@@ -123,6 +123,8 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
 
 ### Retrospective
 [11/15/2021](https://drive.google.com/file/d/1qyPbl5Z8MhrwLcovys6oPZXovPbFZxbn/view?usp=sharing)
+[11/17/2021](https://drive.google.com/file/d/1Mnyb7-d4S5b2lyS94KciQGZ4KxA3B6-y/view?usp=sharing)
+
 
 #### What went well
   - Item 1
