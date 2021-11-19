@@ -45,6 +45,8 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zhiping Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 
+### Testing
+
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
 |[Issue #5](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989)| [profileSettings.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/ProfileSettings/profileSettings.js)|Profile Settings| [3/3 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/ProfileSettings/testcafe%20test.gif) | [
