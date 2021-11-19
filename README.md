@@ -49,8 +49,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
-|[Issue #](https://github.com/issue)| [Google.js](https://www.github.com/)|Google Authentication| [3/3 tests passed](https://yoursite.com/animated.gif) | [
-|[Issue #](https://github.com/issue)| [routes.js](https://www.github.com/)|PUT and DELETE routes for rounds | [15/15 tests passed](https://yoursite.com/animated.gif) |
+|[Issue #5](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989)| [profileSettings.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/ProfileSettings/profileSettings.js)|Profile Settings| [3/3 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/ProfileSettings/testcafe%20test.gif) | [
+|[Issue #6](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740987)| [delete.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/DeleteRoundsTests/delete.js)|DELETE rounds | [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/DeleteRoundsTests/testcafe%20test.gif) |
+|[Issue #7](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740982)| [updateRoundsTest.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/78b377195960e2b75244aec84d96f0891315e5a1/tests/UpdateRoundsTests/UpdateRoundsTest.js)|UPDATE rounds | [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/f1f68584ac5a1c10b34d0acee6de0e6b693036de/tests/UpdateRoundsTests/UpdateRoundsTest.gif) |
   
 ### Communication
  
