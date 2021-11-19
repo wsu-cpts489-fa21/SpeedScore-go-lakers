@@ -40,7 +40,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 | Team Member | Context Statement |
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Wen-Chih Li| <In this milestone, I did the task "Add Google OAuth to the app" and help Jianqiao with the task "As a user, I can edit my account and profile settings so that I can customize my user experience". Furthermore, collaborated with Guang-Zheng Lee to do the task "Deploy app to Heroku".> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zhiping Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
