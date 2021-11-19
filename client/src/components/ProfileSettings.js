@@ -42,7 +42,7 @@ class ProfileSettings extends React.Component {
                  aria-label="Profile Modal" tabIndex="-1">
                 <h1 className="mode-page-header">Account & Profile</h1>
                 <div className="mb-3 centered">
-                    <label className="form-label">UserId:      
+                    <label className="form-label">UserId:      &nbsp;&nbsp;
                         {this.props.userData.accountData.id}
                     </label>
                 </div>
