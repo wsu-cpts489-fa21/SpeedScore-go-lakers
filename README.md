@@ -72,7 +72,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
      <td>11/12/21</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td>
     </tr>
     <tr>
-     <td>11/15/21</td><td>16</td><td>1</td><td>5</td><td>6</td><td>1</td><td>3</td>
+     <td>11/15/21</td><td>20</td><td>1</td><td>10</td><td>5</td><td>1</td><td>3</td>
     </tr>
     <tr>
      <td>11/16/21</td><td>9</td><td>4</td><td>0</td><td>0</td><td>2</td><td>3</td>
