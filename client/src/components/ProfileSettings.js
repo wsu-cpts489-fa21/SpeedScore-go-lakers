@@ -5,7 +5,6 @@ class ProfileSettings extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            password: this.props.userData.accountData.password,
             securityQuestion: this.props.userData.accountData.securityQuestion,
             securityAnswer: this.props.userData.accountData.securityAnswer,
             displayName: this.props.userData.identityData.displayName
@@ -15,7 +14,6 @@ class ProfileSettings extends React.Component {
     }
     submitProfileChange = () => {
         let newUserData = this.props.userData;
-        newUserData.accountData.password = this.state.password;
         newUserData.accountData.securityQuestion = this.state.securityQuestion;
         newUserData.accountData.securityAnswer = this.state.securityAnswer;
         newUserData.identityData.displayName = this.state.displayName;
@@ -27,10 +25,7 @@ class ProfileSettings extends React.Component {
     }
     handleChange = (event) => {
         const name = event.target.name;
-        if (name === "password") {
-            const newPassword = event.target.value;
-            this.setState({password: newPassword});
-        } else if (name === "securityQuestion") {
+        if (name === "securityQuestion") {
             const newSecurityQuestion = event.target.value;
             this.setState({securityQuestion: newSecurityQuestion});
         } else if (name === "securityAnswer") {
@@ -49,14 +44,6 @@ class ProfileSettings extends React.Component {
                 <div className="mb-3 centered">
                     <label className="form-label">UserId:      
                         {this.props.userData.accountData.id}
-                    </label>
-                </div>
-                <div className="mb-3 centered">
-                    <label className="form-label">Password:
-                        <input id="password" name="password" 
-                            className="form-control centered" type="text" 
-                            size="50" maxLength="50"  value={this.state.password} 
-                            onChange={this.handleChange} required />
                     </label>
                 </div>
                 <div className="mb-3 centered">
