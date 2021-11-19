@@ -66,12 +66,24 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
   </thead> 
   <tbody>
     <tr>
-      <td>11/9/21</td><td>5</td><td>2</td><td>1</td><td>1</td><td>1</td><td>0</td>
+      <td>11/10/21</td><td>2</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td>
     </tr>
     <tr>
-     <td>11/12/21</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+     <td>11/12/21</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>9</b></td><td><b>3</b></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+    <tr>
+     <td>11/15/21</td><td>16</td><td>1</td><td>5</td><td>6</td><td>1</td><td>3</td>
+    </tr>
+    <tr>
+     <td>11/16/21</td><td>9</td><td>4</td><td>0</td><td>0</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+     <td>11/17/21</td><td>5</td><td>0</td><td>3</td><td>1</td><td>1</td><td>0</td>
+    </tr>
+    <tr>
+     <td>11/17/21</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td>
+    </tr>
+    <tr><td align="right"><b>Totals:</b></td><td><b>35</b></td><td><b>6</b></td><td><b>10</b></td><td><b>9</b></td><td><b>4</b></td><td><b>6</b></td>
     </tr>
   </tbody>
 </table>
@@ -90,7 +102,10 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
     <tr>
       <td>11/15/21</td><td>7</td><td>&check;</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>7</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+    <tr>
+      <td>11/17/21</td><td>9</td><td>&check;</td><td>&check;</td><td>&check;</td>&check;<td></td><td>&check;</td>
+    </tr>
+    <tr><td align="right"><b>Totals:</b></td><td><b>16</b></td><td><b>2</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td>
     </tr>
   </tbody>
 </table>
@@ -128,7 +143,7 @@ You can access our team's deployed app at [this Heroku site](https://ourapp.hero
 
 ### Retrospective
 
-[Link to Recording](https://wsu.zoom.us/recording)
+[Link to Recording](https://drive.google.com/drive/folders/1jmIdB9_SU7nkyA6-hksPpbDP6e38pNxN?usp=sharing)
 
 #### What went well
   - Item 1
