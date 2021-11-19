@@ -82,7 +82,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td>11/17/21</td><td>5</td><td>0</td><td>3</td><td>1</td><td>1</td><td>0</td>
     </tr>
     <tr>
-     <td>11/17/21</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td>
+     <td>11/18/21</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td>
     </tr>
     <tr><td align="right"><b>Totals:</b></td><td><b>39</b></td><td><b>6</b></td><td><b>15</b></td><td><b>9</b></td><td><b>4</b></td><td><b>6</b></td>
     </tr>
