@@ -42,8 +42,8 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| In this milestone, I finish these jobs: Clone project starter repo into your team's GitHub repo; Set Up MongoDB Cloud Atlas Database; Edit account and profile settings; Do code review of other function. |
 |Wen-Chih Li| <In this milestone, I did the task "Add Google OAuth to the app" and help Jianqiao with the task "As a user, I can edit my account and profile settings so that I can customize my user experience". Furthermore, collaborated with Guang-Zheng Lee to do the task "Deploy app to Heroku".> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Zhiping Li| In this milestone, I completed the issue of updating rounds and the issue of testing for updating rounds. In addition, as a reviewer, I recorded the result of "Add Google OAuth to the app" as a .gif file and merged the codes into main branch.|
+|Zicheng Gu| <In this milestone, I did the task: "As a user, I can delete a speedgolf round so that I can maintain my rounds." And create a dialog for users to confirm this operation. Also finish the test for this function. > |
+|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 
 ### Testing
 
@@ -119,7 +119,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Wen-Chih Li| <In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zicheng Gu| <In this mileston, I kept in touch with my team members thus Slack and team meeting and completed the tasks I assigned. > |
 |Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 
 ### Retrospective
