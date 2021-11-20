@@ -120,7 +120,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Wen-Chih Li| <In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <In this mileston, I kept in touch with my team members thus Slack and team meeting and completed the tasks I assigned. > |
-|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zhiping Li| In this milestone, I asked a question about keyboard interactions in TestCafe case for updating rounds. And When I completed my issues, I asked Jiaoqiao to review my codes on Slack.|
 
 ### Retrospective
 [11/15/2021](https://drive.google.com/file/d/1qyPbl5Z8MhrwLcovys6oPZXovPbFZxbn/view?usp=sharing)
