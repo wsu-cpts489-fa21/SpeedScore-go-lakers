@@ -43,7 +43,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Wen-Chih Li| <In this milestone, I did the task "Add Google OAuth to the app" and help Jianqiao with the task "As a user, I can edit my account and profile settings so that I can customize my user experience". Furthermore, collaborated with Guang-Zheng Lee to do the task "Deploy app to Heroku".> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Zhiping Li| In this milestone, I completed the issue of updating rounds and the issue of testing for updating rounds. In addition, as a reviewer, I recorded the result of "Add Google OAuth to the app" as a .gif file and merged the codes into main branch.|
 
 ### Testing
 
