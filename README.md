@@ -38,9 +38,6 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989">Issue #5</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td></td>
     </tr>
     <tr>
-    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989">Issue #5</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td></td>
-    </tr>
-    <tr>
     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740987">Issue #6</a></td><td></td><td>3</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>100</td><td></td>
     </tr>
     <tr>
@@ -67,7 +64,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72792383">Issue #14</a></td><td></td><td>5</td><td>2.5</td><td>2.5</td><td>0</td><td>0</td><td>0</td><td>100</td><td></td>
     </tr>
-    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>8</b></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0.8</b></td><td><b>0.4</b></td><td colspan="2"></td>
+    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>47</b></td><td><b>8.5</b></td><td><b>10.5</b></td><td><b>9.5</b></td><td><b>8</b></td><td><b>10</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
