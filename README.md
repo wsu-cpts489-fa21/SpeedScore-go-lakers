@@ -26,10 +26,46 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td><a href="https://github.com/issue">Issue #</a></td><td><a href="https://github.com/PR">PR #</a></td><td>5</td><td>3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>100</td><td></td>
+      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740997">Issue #1</a></td><td></td><td>3</td><td>0</td><td>1.5</td><td>1.5</td><td>0</td><td>0</td><td>100</td><td></td>
     </tr>
     <tr>
-     <td><a href="https://github.com/issue">Issue #</a></td><td><a href="https://github.com/PR">PR #</a></td><td>3</td><td>0</td><td>0</td><td>0</td><td>0.8</td><td>0.4</td><td>40</td><td>Updated database schema. Updated server routes. Did not implement UI.</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740994">Issue #3</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td>Updated README</td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740992">Issue #4</a></td><td></td><td>5</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989">Issue #5</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740989">Issue #5</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740987">Issue #6</a></td><td></td><td>3</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740982">Issue #7</a></td><td></td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740979">Issue #8</a></td><td></td><td>3</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740976">Issue #9</a></td><td></td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740975">Issue #10</a></td><td></td><td>5</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740972">Issue #11</a></td><td></td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740969">Issue #12</a></td><td></td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72740968">Issue #13</a></td><td></td><td>5</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>100</td><td></td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72792383">Issue #14</a></td><td></td><td>5</td><td>2.5</td><td>2.5</td><td>0</td><td>0</td><td>0</td><td>100</td><td></td>
     </tr>
     <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>8</b></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0.8</b></td><td><b>0.4</b></td><td colspan="2"></td>
     </tr>
@@ -41,7 +77,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| In this milestone, I finish these jobs: Clone project starter repo into your team's GitHub repo; Set Up MongoDB Cloud Atlas Database; Edit account and profile settings; Do code review of other function. |
 |Wen-Chih Li| <In this milestone, I did the task "Add Google OAuth to the app" and help Jianqiao with the task "As a user, I can edit my account and profile settings so that I can customize my user experience". Furthermore, collaborated with Guang-Zheng Lee to do the task "Deploy app to Heroku".> |
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Guang-Zheng Lee| I have finished the task for testing profile settinges and update the README file. |
 |Zicheng Gu| <In this milestone, I did the task: "As a user, I can delete a speedgolf round so that I can maintain my rounds." And create a dialog for users to confirm this operation. Also finish the test for this function. > |
 |Zhiping Li| In this milestone, I completed the issue of updating rounds and the issue of testing for updating rounds. In addition, as a reviewer, I recorded the result of "Add Google OAuth to the app" issue as a .gif file and merged the codes into main branch. |
 
@@ -118,7 +154,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Wen-Chih Li| <In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.> |
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Guang-Zheng Lee| I ofen check the Slack so that I discuss with my team members.  |
 |Zicheng Gu| <In this mileston, I kept in touch with my team members thus Slack and team meeting and completed the tasks I assigned. > |
 |Zhiping Li| In this milestone, I asked a question about keyboard interactions in TestCafe case for updating rounds. And When I completed my issues, I asked Jiaoqiao to review my codes on Slack.|
 
@@ -128,19 +164,15 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 
 
 #### What went well
-  - Item 1
-  - Item 2
-  - Item x
+  Complete the task very soon.
+  The group members are actively participating in the Slack discussion.
+  The group members are actively participating in the Zoom meetings.
   
  #### What we'd like to improve
-  - Item 1
-  - Item 2
-  - Item x
+  None
   
 #### Changes we plan to implement in next milestone period
-  - Item 1
-  - Item 2
-  - Item x
+  None
 
 ## Milestone 1 (Due 12/3)
 
