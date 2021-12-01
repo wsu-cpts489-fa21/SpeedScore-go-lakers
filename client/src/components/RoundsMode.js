@@ -3,6 +3,7 @@
 const RoundsMode = {
     ROUNDSTABLE: "RoundsTable",
     LOGROUND: "LogRound",
+    LOGLIVEROUND: "logLiveRound",
     EDITROUND: "EditRound"
 };
 
