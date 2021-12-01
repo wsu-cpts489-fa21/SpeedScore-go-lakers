@@ -17,7 +17,7 @@ import AppMode from './AppMode.js';
 
 library.add(faWindowClose,faEdit, faCalendar, 
             faSpinner, faSignInAlt, faBars, faTimes, faSearch,
-            faSort, faTrash, faEye, faUserPlus, faGithub, faGoogle);
+            faSort, faTrash, faEye, faUserPlus, faGithub, faGoogle );
 
 class App extends React.Component {
 

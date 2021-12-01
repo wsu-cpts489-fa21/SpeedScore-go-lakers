@@ -413,3 +413,82 @@ button::-moz-focus-inner {
   opacity: 100 !important;
   display: block;
 }
+
+/*************************************************************************
+* CSS CLASSES FOR LOG LIVE ROUNDS FORM
+*************************************************************************/
+#live-round-form{
+}
+
+#live-round-form-top{
+  margin-top: 30px;
+  font-size: large;
+  text-align: center;
+}
+.btn-dark{
+  background-color: #13294e;
+}
+.btn-deepblue{
+  background-color: #286090
+}
+#live-round-form-top>button{
+  height: 100px;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#live-round-form-top>button>span:nth-child(1){
+  font-size: 30px;
+}
+#live-round-form-top>button>span:nth-child(2){
+  font-size: 17px;
+}
+#live-round-form-center{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+#live-round-form-center>span{
+  font-weight: bold;
+  margin-top: 10px;
+}
+#live-round-form-center>button{
+  height: 60px;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+#live-round-form-bottom>button{
+  height: 80px;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: none;
+}
+.btn-success{
+  background-color: #5cb85c;
+}
+.btn-opacity{
+  opacity: .5;
+}
+#hole{
+  margin: auto;
+  width: 500px;
+  border-bottom: 1px solid #000;
+}
