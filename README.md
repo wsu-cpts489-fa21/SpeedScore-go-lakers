@@ -186,10 +186,10 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937423">Issue #57</a></td><td><a href="https://github.com/PR">PR #</a></td><td>13</td><td>0</td><td>0</td><td>3</td><td>0</td><td>8</td><td>100</td><td>Add Live Round Logging GUI</td>
+      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937423">Issue #57</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/64">PR #</a></td><td>13</td><td>0</td><td>0</td><td>3</td><td>0</td><td>8</td><td>100</td><td>Add Live Round Logging GUI</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416">Issue #54</a></td><td><a href="https://github.com/PR">PR #</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>100</td><td>Test Live Round Logging GUI</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416">Issue #54</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/65">PR #</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>100</td><td>Test Live Round Logging GUI</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937381">Issue #44</a></td><td></td><td>5</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>20</td><td>Complete TPM 1 Report</td>
