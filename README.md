@@ -237,10 +237,16 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td>11/9/21</td><td>5</td><td>2</td><td>1</td><td>1</td><td>1</td><td>0</td>
+      <td>11/29/21</td><td>5</td><td>0</td><td>2</td><td>2</td><td>1</td><td>0</td>
     </tr>
     <tr>
-     <td>11/12/21</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+     <td>11/30/21</td><td>4</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td>
+    </tr>
+    <tr>
+     <td>12/2/21</td><td>6</td><td>2</td><td>0</td><td>0</td><td>4</td><td>0</td>
+    </tr>
+    <tr>
+     <td>11/30/21</td><td>4</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td>
     </tr>
     <tr><td align="right"><b>Totals:</b></td><td><b>9</b></td><td><b>3</b></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
     </tr>
@@ -259,37 +265,13 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td>11/9/21</td><td>17</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td>
+      <td>11/29/21</td><td>5</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td>
     </tr>
-     <tr>
-      <td>11/12/21</td><td>31</td><td>&check;</td><td>&check;</td><td></td><td></td><td>&check;</td>
-    </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>48</b></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>5</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
     </tr>
   </tbody>
 </table>
-  
-#### Face-to-Face Meetings
-<table> 
-  <thead>
-    <tr>
-      <th colspan="2"></th><th colspan="5">In attendance?</th><th></th>
-    </tr> 
-    <tr>
-      <th>Date</th><th>Duration (min)</th><th>Jianqiao Liu</th><th>Wen-Chih Li</th><th>Guang-Zheng Lee</th><th>Zicheng Gu</th><th>Zhiping Li</th><th>Notes</th>
-    </tr>
-  </thead> 
-  <tbody>
-    <tr>
-      <td>11/10/21</td><td>45</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td><td>We met in CUB conference room</td>
-    </tr>
-     <tr>
-      <td>11/14/21</td><td>20</td><td>&check;</td><td>&check;</td><td></td><td></td><td>&check;</td><td>We met at Starbucks for coffee</td>
-    </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>65</b></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td><td></td>
-    </tr>
-  </tbody>
-</table>
+ 
 
 #### Context Statements
 | Team Member | Context Statement |
