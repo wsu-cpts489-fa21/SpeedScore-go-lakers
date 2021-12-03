@@ -153,7 +153,7 @@ class LiveRoundForm extends React.Component {
                         Tee time: 8:22<br/>
                         Playing holes 1 through 18
                   </React.Fragment>}
-                <button type="button" className={this.state.inHole ? "btn btn-deepblue" : "btn btn-dark"} onClick={this.primaryBtnFunc}>
+                <button type="button" id="Start" className={this.state.inHole ? "btn btn-deepblue" : "btn btn-dark"} onClick={this.primaryBtnFunc}>
                     <span>{this.state.inProcess ? (this.state.scoreLevel ? (this.state.inHole ? this.formatDate(this.state.holeOutTime) : this.formatDate(this.state.timeInterval)) : "Start Time: " + this.state.startTime) : "Start Round Timer"}</span>
                     <span>{this.state.inProcess ? (this.state.scoreLevel ? (this.state.inHole ? "Click to update" : "Click When in Hole") : "Click again to update") : "(No time recorded yet)"}</span>
                 </button>
@@ -165,7 +165,7 @@ class LiveRoundForm extends React.Component {
                 <button type="button" className={this.state.inHole && this.state.stroke >= 2 ? "btn btn-dark" : "btn btn-opacity btn-dark disabled"} onClick={this.subtractStrokes}>-</button>
               </div>}
               <div id="live-round-form-bottom">
-                <button type="button" className={this.state.inProcess ? ((this.state.inHole || !this.state.scoreLevel) ? "btn btn-success" : "btn btn-success btn-opacity disabled") : "btn disabled"} onClick={this.secondaryBtnFunc}>
+                <button type="button" id='GotoScoring' className={this.state.inProcess ? ((this.state.inHole || !this.state.scoreLevel) ? "btn btn-success" : "btn btn-success btn-opacity disabled") : "btn disabled"} onClick={this.secondaryBtnFunc}>
                     {this.state.scoreLevel ? "Save & Next Hole" : "Go to Scoring"}&nbsp;
                     <FontAwesomeIcon icon={["fas", "chevron-right"]} ></FontAwesomeIcon>
                 </button>

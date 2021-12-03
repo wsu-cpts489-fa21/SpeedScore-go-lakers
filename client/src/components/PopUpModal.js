@@ -15,7 +15,8 @@
     render() {
         let choicesTemplate = [];
         for(let key in this.props.choices){
-            choicesTemplate.push(<button type="button" className="btn btn-primary" key={key} onClick={this.props.choices[key]}>{key}</button>)
+            const id = key.replace(" ","_")
+            choicesTemplate.push(<button id={id} type="button" className="btn btn-primary" key={key} onClick={this.props.choices[key]}>{key}</button>)
         }
         return (
             <div
