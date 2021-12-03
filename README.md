@@ -159,7 +159,6 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 [11/15/2021](https://drive.google.com/file/d/1qyPbl5Z8MhrwLcovys6oPZXovPbFZxbn/view?usp=sharing)
 [11/17/2021](https://drive.google.com/file/d/1Mnyb7-d4S5b2lyS94KciQGZ4KxA3B6-y/view?usp=sharing)
 
-
 #### What went well
   Complete the task very soon.
   The group members are actively participating in the Slack discussion.
@@ -303,7 +302,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 
 ### Retrospective
 
-[Link to Recording](https://wsu.zoom.us/recording)
+[11/29/2021](https://drive.google.com/file/d/1eVPxP_3FOIXne49g9bRMY5clb1ZbtD0D/view?usp=sharing)
 
 #### What went well
   - Item 1
