@@ -203,7 +203,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
     </tr>
-    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>46</b></td><td><b>10.2</b></td><td><b>11.2</b></td><td><b>8</b></td><td><b>8</b></td><td><b>8</b></td><td colspan="2"></td>
+    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>46</b></td><td><b>10.2</b></td><td><b>11.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
@@ -221,8 +221,8 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
-|[Issue #](https://github.com/issue)| [Google.js](https://www.github.com/)|Google Authentication| [3/3 tests passed](https://yoursite.com/animated.gif) | [
-|[Issue #](https://github.com/issue)| [routes.js](https://www.github.com/)|PUT and DELETE routes for rounds | [15/15 tests passed](https://yoursite.com/animated.gif) |
+|[Issue #54](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416)| [LiveRound.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/LiveRound.js)|Live Round| [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/Testcafe%20test.gif) |
+|[Issue #38](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357)| [routes.js](https://www.github.com/)|PUT and DELETE routes for rounds | [15/15 tests passed](https://yoursite.com/animated.gif) |
   
 ### Communication
  
