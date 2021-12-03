@@ -248,7 +248,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td>12/2/21</td><td>6</td><td>2</td><td>0</td><td>0</td><td>4</td><td>0</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>20</b></td><td><b>5</b></td><td><b>3</b></td><td><b>4</b></td><td><b>8</b></td><td><b>1</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>20</b></td><td><b>5</b></td><td><b>3</b></td><td><b>4</b></td><td><b>6</b></td><td><b>2</b></td>
     </tr>
   </tbody>
 </table>
