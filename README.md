@@ -280,7 +280,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zhiping Li| In this milestone, when I completed my issues, I asked Jiaoqiao to review my codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review.  |
 
 ### Retrospective
 
