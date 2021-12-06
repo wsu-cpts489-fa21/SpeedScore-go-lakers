@@ -277,7 +277,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 | Team Member | Context Statement |
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Wen-Chih Li|<In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.>|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zhiping Li| In this milestone, when I completed my issues, I asked Jiaoqiao to review my codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review.  |
