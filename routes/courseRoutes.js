@@ -123,7 +123,7 @@ courseRoute.put('/courses', async (req, res, next) => {
     if (status.modifiedCount != 1) {
       return res.status(400).send("Course not updated to database.");
     } else {
-      return res.status(201).send("Round successfully updated to database.");
+      return res.status(201).send("Course successfully updated to database.");
     }
   } catch (err) {
     console.log(err);
@@ -150,7 +150,7 @@ courseRoute.delete('/courses', async (req, res, next) => {
     }
   } catch (err) {
     console.log(err);
-    return res.status(400).send("Round not deleted to database. " +
+    return res.status(400).send("Course not deleted to database. " +
       "Unexpected error occurred: " + err);
   } 
 });
