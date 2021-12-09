@@ -201,7 +201,7 @@ class LoginPage extends React.Component {
                   &nbsp;{this.state.githubLabel}
                 </button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" className="btn btn-google"
+                <button type="button" className="btn btn-google" id="googleButton"
                   onClick={() => this.handleOAuthLoginClick("google")}>
                   <FontAwesomeIcon icon={this.state.googleIcon} 
                                    className={this.state.googleIcon == "spinner" ? "fa-spin" : ""}/>
