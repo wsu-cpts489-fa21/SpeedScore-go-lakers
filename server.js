@@ -10,6 +10,7 @@ import express from 'express';
 import passportConfig from './passport/config.js';
 import authRoute from './routes/authRoutes.js';
 import userRoute from './routes/userRoutes.js';
+import courseRoute from './routes/courseRoutes.js';
 import roundRoute from './routes/roundRoutes.js';
 const PORT = process.env.PORT || process.env.LOCAL_PORT;
 const app = express(); //Instantiate express app
@@ -43,6 +44,7 @@ app
   .use(express.json({limit: '20mb'}))
   .use(authRoute)
   .use(userRoute)
+  .use(courseRoute)
   .use(roundRoute)
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
   

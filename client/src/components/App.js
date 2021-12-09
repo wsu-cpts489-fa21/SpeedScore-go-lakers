@@ -33,12 +33,17 @@ class App extends React.Component {
                     speedgolfData: {},
                     rounds: [],
                     roundCount: 0},
+                  courses: {
+                    courses: [],
+                    courseCount: 0
+                  },
                   authenticated: false                  
                   };
   }
 
   componentDidMount() {
     document.addEventListener("click",this.handleClick, true);
+    this.getCourses();
     if (!this.state.authenticated) { 
       //Use /auth/test route to (re)-test authentication and obtain user data
       fetch("/auth/test")
@@ -260,6 +265,119 @@ class App extends React.Component {
     }
   }
 
+  getCourses = async() => {
+    const url = "/courses";
+    let res = await fetch(url, {
+      method: 'GET',
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                    },
+              method: 'GET'
+    }); 
+    const data = await res.json();
+    if (res.status == 201) { 
+      this.setState({
+        courses: {
+          courses: JSON.parse(data)
+        }
+      })
+      return("Get all courses.");
+    } else { 
+      const resText = await res.text();
+      return("All courses could not be get. " + resText);
+    }
+  }
+
+  addCourse = async(newCourseData) => {
+    console.log(newCourseData)
+    const url = "/courses";
+    let res = await fetch(url, {
+                  method: 'POST',
+                  headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                                },
+                          method: 'POST',
+                          body: JSON.stringify(newCourseData)
+                }); 
+    if (res.status == 201) { 
+      const newCourses = [...this.state.courses.courses];
+      newCourses.push(newCourseData);
+      this.setState({
+        courses: {
+          courses: newCourses
+        }
+      })
+      return("New course added.");
+    } else { 
+      const resText = await res.text();
+      return("New course could not be added. " + resText);
+    }
+  }
+
+  updateCourse = async(newCourseData, editId) => {
+    let newCourses = [...this.state.courses.courses];
+    newCourses[editId] = newCourseData;
+    let id = newCourses[editId]._id
+    const url = "/courses";
+    let res = await fetch(url, {
+      method: 'PUT',
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                    },
+              method: 'PUT',
+              body: JSON.stringify({
+                courses: newCourses,
+                newCourseData: newCourseData,
+                editId: editId,
+                id: id
+              })
+    }); 
+    if (res.status == 201) { 
+      this.setState({
+        courses: {
+          courses: newCourses
+        }
+      })
+      return("New round updated.");
+    } else { 
+      const resText = await res.text();
+      return("New Round could not be updated. " + resText);
+    }
+  }
+
+  deleteCourse = async(deleteId) => {
+    let newCourses = [...this.state.courses.courses];
+    let courseName = newCourses[deleteId].courseName
+    newCourses.splice(deleteId, 1)
+    const url = "/courses";
+    let res = await fetch(url, {
+      method: 'DELETE',
+      headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                    },
+              method: 'DELETE',
+              body: JSON.stringify({
+                index: deleteId,
+                courseName: courseName
+              })
+    }); 
+    if (res.status == 201) { 
+      this.setState({
+        courses: {
+          courses: newCourses
+        }
+      })
+      return("The round is deleted.");
+    } else { 
+      const resText = await res.text();
+      return("The Round could not be deleted. " + resText);
+    }
+  }
+
   render() {
     return (
       <>
@@ -299,7 +417,11 @@ class App extends React.Component {
                         menuOpen={this.state.menuOpen}
                         userId={this.state.userId}/>,
           CoursesMode:
-            <CoursesPage modalOpen={this.state.modalOpen}
+            <CoursesPage courses={this.state.courses.courses}
+                        addCourse={this.addCourse}
+                        updateCourse={this.updateCourse}
+                        deleteCourse={this.deleteCourse}
+                        modalOpen={this.state.modalOpen}
                         toggleModalOpen={this.toggleModalOpen} 
                         menuOpen={this.state.menuOpen}
                         userId={this.state.userId}/>,
