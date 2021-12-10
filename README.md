@@ -214,7 +214,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 | Team Member | Context Statement |
 |-------------|-------------------|
 |Jianqiao Liu| In this milestone, I completed the issue of adding, editting and deleting courses, and I did the code review of Zicheng and Zhiping's work |
-|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Wen-Chih Li| In this milestone, I completed the issue Testing #26: As a user, I want to add and edit speedgolf-friendly courses #38 |
 |Guang-Zheng Lee| In this milestone, I work with Zhiping to complete the isssue of logging live round. Also, I update the README file after all the tasks is copmleted.|
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of logging live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch. |
