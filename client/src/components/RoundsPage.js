@@ -6,6 +6,7 @@ import RoundForm from './RoundForm.js';
 import FloatingButton from './FloatingButton.js'
 import PopUpModal from './PopUpModal.js'
 import LiveRoundForm from './LiveRoundForm.js';
+import LiveRoundDetails from './LiveRoundDetails.js';
 
 class RoundsPage extends React.Component {
     constructor(props) {
@@ -25,6 +26,15 @@ class RoundsPage extends React.Component {
         this.setState({editId: val,
                        mode: RoundsMode.EDITROUND}, 
                        this.props.toggleModalOpen);
+    }
+
+    initiateDetailedRound = (val) => {
+        this.setState({editId: val,
+                       mode: RoundsMode.LIVEROUNDDETAILS}, 
+                       () => {
+                           this.props.changeIsDetailsView()
+                           this.props.toggleModalOpen()
+                       });
     }
     
     initiateDeleteRound = (val) => {
@@ -58,6 +68,7 @@ class RoundsPage extends React.Component {
                                 deleteRound={this.props.deleteRound} 
                                 deleteId={this.state.deleteId}
                                 initiateEditRound= {this.initiateEditRound}
+                                initiateDetailedRound={this.initiateDetailedRound}
                                 updateRound= {this.props.updateRound}
                                 setMode={this.setMode} 
                                 toggleModalOpen={this.props.toggleModalOpen}
@@ -95,6 +106,19 @@ class RoundsPage extends React.Component {
                 saveRound={this.props.updateRound}
                 setMode={this.setMode}
                 toggleModalOpen={this.props.toggleModalOpen} />
+            );
+        case RoundsMode.LIVEROUNDDETAILS:
+            return (
+            <LiveRoundDetails mode={this.state.mode}
+                editId = {this.state.editId}
+                roundData={this.props.rounds[this.state.editId]}
+                setMode={this.setMode}
+                saveRound={this.props.updateRound}
+                toggleModalOpen={this.props.toggleModalOpen} 
+                changeIsDetailsView={this.props.changeIsDetailsView}
+                changeIsEditDetailsView={this.props.changeIsEditDetailsView}
+                detailsBackFunction={this.props.detailsBackFunction}
+                editDetailsBackFunction={this.props.editDetailsBackFunction}/>
             );
         }
     }  

@@ -18,7 +18,8 @@ class LiveRoundForm extends React.Component {
             strokes: 0,
             stroke: 5,
             holeNum: 1,
-            totalMilliseconds: 0};
+            totalMilliseconds: 0,
+            details: []};
     }
 
     primaryBtnFunc = () => {
@@ -80,10 +81,17 @@ class LiveRoundForm extends React.Component {
     }
 
     saveHole(){
+        let details = this.state.details
+        details.push({
+            stroke: this.state.stroke,
+            par: this.state.stroke,
+            time: this.state.holeOutTime
+        })
         if(this.state.holeNum === 18){
             this.setState({
                 totalMilliseconds: this.state.totalMilliseconds + this.state.holeOutTime,
                 strokes: this.state.strokes + this.state.stroke,
+                details
             }, this.handleSubmit)
         }else{
             this.setState({
@@ -91,7 +99,8 @@ class LiveRoundForm extends React.Component {
                 strokes: this.state.strokes + this.state.stroke,
                 inHole: false,
                 holeNum: ++this.state.holeNum,
-                stroke: 5
+                stroke: 5,
+                details
             }, this.startRoundTimer)
         }
     }
@@ -109,7 +118,8 @@ class LiveRoundForm extends React.Component {
             seconds: seconds + "",
             SGS,
             notes: "",
-            strokes: this.state.strokes
+            strokes: this.state.strokes,
+            details: this.state.details
         };
         const res = await this.props.saveRound(newRound);
         this.props.toggleModalOpen();
@@ -122,7 +132,7 @@ class LiveRoundForm extends React.Component {
 
     formatDate = (milliseconds) =>{
         const minutes = Math.floor(milliseconds / 60000);
-        const seconds = Math.floor(milliseconds / 1000) % 60;
+        const seconds = Math.ceil(milliseconds / 1000) % 60;
         return minutes + ":" + (seconds >= 10 ? seconds : '0' + seconds)
     }
 

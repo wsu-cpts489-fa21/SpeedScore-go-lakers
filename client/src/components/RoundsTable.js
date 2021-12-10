@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import RoundsMode  from './RoundsMode.js';
 
 class RoundsTable extends React.Component {
 
@@ -30,6 +31,10 @@ class RoundsTable extends React.Component {
             () => this.props.initiateDeleteRound(r)}>
                 <FontAwesomeIcon icon="trash"/>
               </button></td>
+          <td>
+            <button id={'detailsBtn' + r} type="button" className={this.props.rounds[r].details.length ? "btn btn-primary" : "btn btn-dark btn-opacity disabled"} onClick={this.props.menuOpen ? null : () => 
+                  this.props.initiateDetailedRound(r)}>More details</button>
+          </td>
         </tr> 
       );
     }
@@ -78,12 +83,15 @@ class RoundsTable extends React.Component {
             <th scope="col" className="cell-align-middle">
               Delete
             </th>
+            <th scope="col" className="cell-align-middle">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Details
+            </th>
             </tr>
           </thead>
           <tbody>
             {this.props.rounds === null || this.props.rounds.length === 0 ? 
               <tr>
-                <td colSpan="5" scope="rowgroup"><i>No rounds logged</i></td>
+                <td colSpan="6" scope="rowgroup"><i>No rounds logged</i></td>
               </tr> : this.renderTable()
             }
           </tbody>
