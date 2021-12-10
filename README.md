@@ -185,13 +185,13 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937423">Issue #57</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/64">PR #64</a></td><td>13</td><td>0</td><td>0</td><td>3</td><td>0</td><td>8</td><td>100</td><td>Add Live Round Logging GUI</td>
+      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937423">Issue #57</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/64">PR #64</a></td><td>13</td><td>0</td><td>0</td><td>5</td><td>0</td><td>8</td><td>100</td><td>Add Live Round Logging GUI</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416">Issue #54</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/65">PR #65</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>100</td><td>Test Live Round Logging GUI</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937381">Issue #44</a></td><td></td><td>5</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>20</td><td>Complete TPM 1 Report</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937381">Issue #44</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>20</td><td>Complete TPM 1 Report</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937393">Issue #46</a></td><td><a href="https://github.com/PR">PR #</a></td><td>13</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Add "Add Course" function</td>
@@ -203,9 +203,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
     </tr>
      <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue #66</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>100</td><td>Code review</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue #66</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100</td><td>Code review</td>
     </tr>
-    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>46</b></td><td><b>10.2</b></td><td><b>11.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td colspan="2"></td>
+    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>10.2</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
@@ -288,7 +288,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 ### Retrospective
 
 [11/29/2021](https://drive.google.com/file/d/1eVPxP_3FOIXne49g9bRMY5clb1ZbtD0D/view?usp=sharing)
-
+[12/3/2021](https://drive.google.com/file/d/12H-faG_fGGYRtwOLjVKPO4n5IHC1rJlX/view?usp=sharing)
 #### What went well
   - Item 1
   - Item 2
