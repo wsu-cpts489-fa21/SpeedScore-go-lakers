@@ -194,10 +194,10 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937381">Issue #44</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>20</td><td>Complete TPM 1 Report</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937393">Issue #46</a></td><td><a href="https://github.com/PR">PR #</a></td><td>13</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Add "Add Course" function</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937393">Issue #46</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/67">PR #67</a></td><td>13</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Add "Add Course" function</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/PR">PR #</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/67">PR #67</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
@@ -215,7 +215,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| In this milestone, I completed the issue of adding, editting and deleting courses, and I did the code review of Zicheng and Zhiping's work |
 |Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Guang-Zheng Lee| In this milestone, I work with Zhiping to complete the isssue of logging live round. Also, I update the readme file after ever members complete thier tasks.|
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of logging live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch. |
 
@@ -224,7 +224,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
 |[Issue #54](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416)| [LiveRound.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/LiveRound.js)|Live Round| [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/Testcafe%20test.gif) |
-|[Issue #38](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357)| [addCourseTest.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/addCourseTest.js)|PUT and DELETE routes for rounds | [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/testCafeTest.gif) |
+|[Issue #38](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357)| [addCourseTest.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/addCourseTest.js)|Add and edit course | [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/testCafeTest.gif) |
   
 ### Communication
  
@@ -263,7 +263,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td>12/9/21</td><td>9</td><td>2</td><td>1</td><td>0</td><td>1</td><td>5</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>20</b></td><td><b>5</b></td><td><b>3</b></td><td><b>4</b></td><td><b>6</b></td><td><b>2</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>40</b></td><td><b>8</b></td><td><b>10</b></td><td><b>6</b></td><td><b>7</b></td><td><b>9</b></td>
     </tr>
   </tbody>
 </table>
@@ -296,7 +296,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Guang-Zheng Lee| In this milestone, I often reply to the Slack's messages to let the team members know that I see their messages. |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zhiping Li| In this milestone, when I completed my issues, I asked Jiaoqiao to review my codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review.  |
 
@@ -305,19 +305,16 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 [11/29/2021](https://drive.google.com/file/d/1eVPxP_3FOIXne49g9bRMY5clb1ZbtD0D/view?usp=sharing)
 [12/3/2021](https://drive.google.com/file/d/12H-faG_fGGYRtwOLjVKPO4n5IHC1rJlX/view?usp=sharing)
 #### What went well
-  - Item 1
-  - Item 2
-  - Item x
+  Members complete task on time.
+
   
  #### What we'd like to improve
-  - Item 1
-  - Item 2
-  - Item x
+  Maybe we can add more comment so that the code can be more easily to read.
+
   
 #### Changes we plan to implement in next milestone period
-  - Item 1
-  - Item 2
-  - Item x
+  TBD
+
   
 ## Milestone 2 (Due 12/10)
 
