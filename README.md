@@ -194,13 +194,16 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937381">Issue #44</a></td><td></td><td>5</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>20</td><td>Complete TPM 1 Report</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937393">Issue #46</a></td><td><a href="https://github.com/PR">PR #</a></td><td>13</td><td>10</td><td>3</td><td>0</td><td>0</td><td>0</td><td>20</td><td>Add "Add Course" function</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937393">Issue #46</a></td><td><a href="https://github.com/PR">PR #</a></td><td>13</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Add "Add Course" function</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/PR">PR #</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>20</td><td>Test "Add Course" function</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/PR">PR #</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
+    </tr>
+     <tr>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue #66</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>100</td><td>Code review</td>
     </tr>
     <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>46</b></td><td><b>10.2</b></td><td><b>11.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td colspan="2"></td>
     </tr>
@@ -221,7 +224,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
 |[Issue #54](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937416)| [LiveRound.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/LiveRound.js)|Live Round| [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/LogLiveRounds/Testcafe%20test.gif) |
-|[Issue #38](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357)| [routes.js](https://www.github.com/)|PUT and DELETE routes for rounds | [15/15 tests passed](https://yoursite.com/animated.gif) |
+|[Issue #38](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357)| [addCourseTest.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/addCourseTest.js)|PUT and DELETE routes for rounds | [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/AddEditDeleteCourseTests/testCafeTest.gif) |
   
 ### Communication
  
