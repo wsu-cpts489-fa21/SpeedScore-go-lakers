@@ -348,7 +348,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone>  |
+|Zhiping Li| In this milestone, Guangzheng and I have completed the issue of viewing and editing logged live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch.  |
 
 ### Testing
 
@@ -432,7 +432,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Zhiping Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zhiping Li| In this milestone, when Guangzheng and I completed our issues, I asked Jiaoqiao to review our codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review. |
 
 ### Retrospective
 
