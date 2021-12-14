@@ -428,7 +428,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 #### Context Statements
 | Team Member | Context Statement |
 |-------------|-------------------|
-|Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Jianqiao Liu| In this milestone, I finished the test of Complete view and search speedgolf-friendly golf courses #69, and did the code review of Zhiping's work |
 |Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
