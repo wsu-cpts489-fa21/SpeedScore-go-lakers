@@ -285,6 +285,7 @@ class App extends React.Component {
   }
 
   getCourses = async() => {
+    
     const url = "/courses";
     let res = await fetch(url, {
       method: 'GET',
