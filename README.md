@@ -345,7 +345,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 | Team Member | Context Statement |
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Wen-Chih Li| In this milestone, I completed the issue Testing #25: Asd a user, I want to view and search speedgolf-friendly courses... #37|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of viewing and editing logged live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch.  |
@@ -429,7 +429,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 | Team Member | Context Statement |
 |-------------|-------------------|
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Wen-Chih Li| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Zhiping Li| In this milestone, when Guangzheng and I completed our issues, I asked Jiaoqiao to review our codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review. |
