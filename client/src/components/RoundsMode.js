@@ -4,7 +4,8 @@ const RoundsMode = {
     ROUNDSTABLE: "RoundsTable",
     LOGROUND: "LogRound",
     LOGLIVEROUND: "logLiveRound",
-    EDITROUND: "EditRound"
+    EDITROUND: "EditRound",
+    LIVEROUNDDETAILS: "LiveRoundDetails"
 };
 
 Object.freeze(RoundsMode); //This ensures that the object is immutable.

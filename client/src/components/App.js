@@ -2,7 +2,7 @@ import React from 'react';
 import { library } from "@fortawesome/fontawesome-svg-core"; 
 import { faWindowClose, faEdit, faCalendar, 
         faSpinner, faSignInAlt, faBars, faTimes, faSearch,
-        faSort, faTrash, faEye, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+        faSort, faTrash, faEye, faUserPlus, faArrowLeft, faUndo} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faGoogle} from '@fortawesome/free-brands-svg-icons';
 import NavBar from './NavBar.js';
 import ModeTabs from './ModeTabs.js';
@@ -17,7 +17,7 @@ import AppMode from './AppMode.js';
 
 library.add(faWindowClose,faEdit, faCalendar, 
             faSpinner, faSignInAlt, faBars, faTimes, faSearch,
-            faSort, faTrash, faEye, faUserPlus, faGithub, faGoogle );
+            faSort, faTrash, faEye, faUserPlus, faGithub, faGoogle, faArrowLeft, faUndo);
 
 class App extends React.Component {
 
@@ -33,12 +33,15 @@ class App extends React.Component {
                     speedgolfData: {},
                     rounds: [],
                     roundCount: 0},
-                  courses: {
-                    courses: [],
-                    courseCount: 0
-                  },
-                  authenticated: false                  
-                  };
+                    courses: {
+                      courses: [],
+                      courseCount: 0
+                    },
+                  authenticated: false,
+                  isDetailsView: false,
+                  isEditDetailsView: false};
+    this.detailsCallBack = null;
+    this.editDetailsCallBack = null;
   }
 
   componentDidMount() {
@@ -54,6 +57,22 @@ class App extends React.Component {
           }
         })
     } 
+  }
+
+  detailsBackFunction = (callBack) =>{
+      this.detailsCallBack = callBack
+    }
+
+  editDetailsBackFunction = (callBack) =>{
+      this.editDetailsCallBack = callBack
+    }
+
+  changeIsDetailsView = () =>{
+    this.setState({isDetailsView: !this.state.isDetailsView})
+  }
+
+  changeIsEditDetailsView = () =>{
+    this.setState({isEditDetailsView: !this.state.isEditDetailsView})
   }
   
 
@@ -388,7 +407,12 @@ class App extends React.Component {
                 modalOpen={this.state.modalOpen}
                 toggleModalOpen={this.toggleModalOpen}
                 userData={this.state.userData}
-                updateUserData={this.updateUserData} /> 
+                updateUserData={this.updateUserData}
+                isDetailsView={this.state.isDetailsView}
+                isEditDetailsView={this.state.isEditDetailsView}
+                detailsCallBack={this.detailsCallBack}
+                editDetailsCallBack={this.editDetailsCallBack}
+                displayName={this.state.userData.identityData.displayName}/> 
         <ModeTabs mode={this.state.mode}
                   setMode={this.setMode} 
                   menuOpen={this.state.menuOpen}
@@ -415,7 +439,11 @@ class App extends React.Component {
                         modalOpen={this.state.modalOpen}
                         toggleModalOpen={this.toggleModalOpen} 
                         menuOpen={this.state.menuOpen}
-                        userId={this.state.userId}/>,
+                        userId={this.state.userId}
+                        changeIsDetailsView={this.changeIsDetailsView}
+                        changeIsEditDetailsView={this.changeIsEditDetailsView}
+                        detailsBackFunction={callBack => {this.detailsBackFunction(callBack)}}
+                        editDetailsBackFunction={callBack => this.editDetailsBackFunction(callBack)}/>,
           CoursesMode:
             <CoursesPage courses={this.state.courses.courses}
                         addCourse={this.addCourse}

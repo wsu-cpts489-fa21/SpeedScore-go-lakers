@@ -22,18 +22,28 @@ class NavBar extends React.Component {
         <a id="sLink" className="skip-link" tabIndex="0">
          Skip to content</a>
          {this.props.mode != AppMode.LOGIN && !this.props.modalOpen ?
+         ( 
+           this.props.isDetailsView ? 
+          <button id="leftArrowBtn" type="button" className="navbar-btn" 
+            title="leftArrowBtn" 
+            aria-label="Actions" aria-haspopup="true"
+            onClick={()=>{this.props.isEditDetailsView ? this.props.editDetailsCallBack() : this.props.detailsCallBack()}}>
+            <FontAwesomeIcon icon= {['fas', 'arrow-left']} className="navbar-btn-icon"></FontAwesomeIcon>
+          </button> :
          <button id="menuBtn" type="button" className="navbar-btn" 
             title="Menu" aria-controls="sideMenu" 
             aria-label="Actions" aria-haspopup="true" 
             aria-expanded={this.props.menuOpen ? "true" : "false"}
             onClick={this.props.toggleMenuOpen}>
             <FontAwesomeIcon 
-              icon={this.props.menuOpen ? "times" : "bars"}
-              className="navbar-btn-icon"/>
-          </button> : null }
+              icon={this.props.menuOpen ? "times" : "bars"} className="navbar-btn-icon"/>
+          </button>) : null}
           <img src={logo} className="navbar-app-icon" 
             alt="SpeedScore logo" />
-           <h1 id="appName" className="navbar-title">SpeedScore</h1> 
+           <h1 id="appName" className="navbar-title">
+             {((this.props.isEditDetailsView && 'Edit Scoring Data') || (this.props.isDetailsView && 'Data for ' + this.props.displayName)) || 'SpeedScore'}
+           </h1> 
+           
            {this.props.mode != AppMode.LOGIN && !this.props.modalOpen ?
              <div className="navbar-right-items">
                 <input id="searchBox" className="form-control hidden" 

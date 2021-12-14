@@ -417,9 +417,6 @@ button::-moz-focus-inner {
 /*************************************************************************
 * CSS CLASSES FOR LOG LIVE ROUNDS FORM
 *************************************************************************/
-#live-round-form{
-}
-
 #live-round-form-top{
   margin-top: 30px;
   font-size: large;
@@ -491,4 +488,23 @@ button::-moz-focus-inner {
   margin: auto;
   width: 500px;
   border-bottom: 1px solid #000;
+}
+
+/*************************************************************************
+* CSS CLASSES FOR LIVE ROUNDS DETAILS TABLE AND EDIT LIVE ROUND DETAILS FORM
+*************************************************************************/
+.live-round-table{
+  text-align: center;
+  vertical-align: middle;
+}
+.btn-white{
+  background-color: #efefef;
+}
+#edit_hole{
+  margin: auto;
+  width: 500px;
+}
+#live-round-form-bottom{
+  display: flex;
+  flex-flow: row;
 }
