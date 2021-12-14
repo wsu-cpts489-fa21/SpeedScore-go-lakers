@@ -8,14 +8,54 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mode: this.props.mode
+      mode: this.props.mode,
+      inputValue: ""
     };
     this.showProfile = this.showProfile.bind(this);
+    this.search = this.search.bind(this);
   }
   showProfile = () => {
     this.props.setMode(AppMode.PROFILESETTINGS);
   }
-
+  showSearchBox = () => {
+    // console.log(this.state.mode)
+    // if (this.state.mode == AppMode.COURSES) {
+    const searchBox = document.getElementById("searchBox");
+    if (searchBox.classList.contains("hidden")) {
+      searchBox.classList.remove("hidden");
+      // searchBox.addEventListener('keyup')
+    } else {
+      searchBox.classList.add("hidden");
+    }
+  }
+  search = (event) => {
+    this.setState({
+      inputValue: event.target.value
+    })
+    let searchVal = event.target.value;
+    searchVal = searchVal.toUpperCase(); //case insensitive
+    let tr = document.getElementById("coursesTable").getElementsByTagName("tr");
+    let rowText = "";
+    let numVisibleRows = 0;
+    for (let i = 1; i < tr.length; i++) {  //Loop through all table rows
+      rowText = this.props.courses[i - 1];
+      if (rowText != "") {
+        if (JSON.stringify(rowText.address).toUpperCase().indexOf(searchVal) > -1 || 
+            JSON.stringify(rowText.courseName).toUpperCase().indexOf(searchVal) > -1) {
+          tr[i].style.display = ""; //show row
+          numVisibleRows++;
+        } else {
+          tr[i].style.display = "none"; //hide row
+        }
+      }
+    }
+    const coursesTableCaption = document.getElementById("coursesTableCaption")
+    if (numVisibleRows == 1) {
+      coursesTableCaption.textContent = "Table displaying 1 speedgolf courses";
+    } else {
+      coursesTableCaption.textContent = "Table displaying " + numVisibleRows + " speedgolf courses";
+    }
+  }
     render() {
        return (
         <header className="navbar">  
@@ -48,9 +88,13 @@ class NavBar extends React.Component {
              <div className="navbar-right-items">
                 <input id="searchBox" className="form-control hidden" 
                 aria-label="Search Rounds" size="30"
+                value={this.state.inputValue}
+                onChange={this.search}
+                // onKeyUp={this.search(this.value)}
                 type="search" />
                 <button id="searchBtn" type="button" className="navbar-btn" 
-                    aria-label="Open Rounds Search">
+                    aria-label="Open Rounds Search"
+                    onClick={this.showSearchBox}>
                     <FontAwesomeIcon icon="search" className="navbar-btn-icon"/>
                 </button>
                 <button id="profileBtn" type="button" 

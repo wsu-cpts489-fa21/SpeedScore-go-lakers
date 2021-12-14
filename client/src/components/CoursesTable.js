@@ -5,7 +5,7 @@ class CoursesTable extends React.Component {
 
   renderTable = () => {
     const table = [];
-    for (let r = 0; r < this.props.courses.length; ++r) {
+    for (let r = 0; r < Object.keys(this.props.courses).length; ++r) {
       table.push(
         <tr key={r}>
           <td>{this.props.courses[r].courseName}</td>
@@ -27,14 +27,15 @@ class CoursesTable extends React.Component {
 
     render() {
       console.log(this.props.courses)
+      console.log(Object.keys(this.props.courses).length)
       return(
         <div id="coursesModeTab" className="mode-page" role="tabpanel"
             aria-label="Courses Tab" tabIndex="0">
         <h1 className="mode-page-header">Courses</h1>
         <table id="coursesTable" className="table table-hover caption-top">
           <caption id="coursesTableCaption" aria-live="polite">
-            {"Table displaying " + this.props.courses.length  + " speedgolf course" + 
-              (this.props.courses.length !== 1 ? "s" : "")}
+            {"There are total " + Object.keys(this.props.courses).length  + " speedgolf courses" + 
+              (Object.keys(this.props.courses).length !== 1 ? "s" : "")}
           </caption>
           <thead className="table-light">
             <tr>
@@ -71,9 +72,9 @@ class CoursesTable extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.props.courses === null || this.props.courses.length === 0 ? 
+            {this.props.courses === null || Object.keys(this.props.courses).length === 0 ? 
               <tr>
-                <td colSpan="4" scope="rowgroup"><i>No courses logged</i></td>
+                <td colSpan="4" scope="rowgroup"><i>No courses shown</i></td>
               </tr> : this.renderTable()
             }
           </tbody>
