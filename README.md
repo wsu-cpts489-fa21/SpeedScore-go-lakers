@@ -216,7 +216,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| In this milestone, I completed the issue of adding, editting and deleting courses, and I did the code review of Zicheng and Zhiping's work |
 |Wen-Chih Li| In this milestone, I completed the issue Testing #26: As a user, I want to add and edit speedgolf-friendly courses #38 |
 |Guang-Zheng Lee| In this milestone, I work with Zhiping to complete the isssue of logging live round. Also, I update the README file after all the tasks is copmleted.|
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Zicheng Gu| In this milestone, I completed the testing issue, including add an hole through live round. Edit and delete it. |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of logging live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch. |
 
 ### Testing
@@ -297,7 +297,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
 |Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
 |Guang-Zheng Lee| In this milestone, I often reply to the Slack's messages to let the team members know that I see their messages. |
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zicheng Gu| In this milestone, I talked with my teammates, and asked jianqiao to review my codes on Slack. Also I mentioned some questions |
 |Zhiping Li| In this milestone, when I completed my issues, I asked Jiaoqiao to review my codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review.  |
 
 ### Retrospective
@@ -347,7 +347,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| In this milestone, I finished the test of Complete view and search speedgolf-friendly golf courses #69, and did the code review of Zhiping's work |
 |Wen-Chih Li| In this milestone, I completed the issue Testing #25: Asd a user, I want to view and search speedgolf-friendly courses... #37|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Zicheng Gu| In this milestone, I finish testing the function that Zhiping and Guangzheng finished before, including the content changes, edit button test etc. |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of viewing and editing logged live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch.  |
 
 ### Testing
@@ -431,7 +431,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |Jianqiao Liu| In this milestone, I finished the test of Complete view and search speedgolf-friendly golf courses #69, and did the code review of Zhiping's work |
 |Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
 |Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
-|Zicheng Gu| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Zicheng Gu| In this mileston, I finished the test part,then ask my teammates to review and merge that, also respond to my teammates in Slack. |
 |Zhiping Li| In this milestone, when Guangzheng and I completed our issues, I asked Jiaoqiao to review our codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review. |
 
 ### Retrospective
