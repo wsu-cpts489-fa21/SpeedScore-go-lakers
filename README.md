@@ -352,9 +352,6 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937363">Issue 40#</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run TPM 2 retrospective meeting</td>
     </tr>  
     <tr>
-      <td colspan="2" align="right"><b>Totals:</b></td><td><b>27</b></td><td><b>15.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>10.4</b></td><td colspan="2"></td>
-    </tr>
-    <tr>
     <td colspan="2" align="right"><b>Totals:</b></td><td><b>27</b></td><td><b>15.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>10.4</b></td><td colspan="2"></td>
     </tr>
   </tbody>
