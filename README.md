@@ -317,7 +317,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   TBD
 
   
-## Milestone 2 (Due 12/10)
+## Milestone 2 (Due 12/16)
 
 ### Progress
 #### Issues and Story Points
@@ -356,7 +356,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937363">Issue 40#</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run TPM 2 retrospective meeting</td>
     </tr>  
     <tr>
-    <td colspan="2" align="right"><b>Totals:</b></td><td><b>27</b></td><td><b>15.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>10.4</b></td><td colspan="2"></td>
+    <td colspan="2" align="right"><b>Totals:</b></td><td><b>51</b></td><td><b>15.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>10.4</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
@@ -366,7 +366,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| In this milestone, I finished the test of Complete view and search speedgolf-friendly golf courses #69, and did the code review of Zhiping's work |
 |Wen-Chih Li| In this milestone, I completed the issue Testing #25: Asd a user, I want to view and search speedgolf-friendly courses... #37|
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your contribution to this milestone> |
+|Guang-Zheng Lee| In this milestone, Zhiping help me a lot, and we complete the task in the end. |
 |Zicheng Gu| In this milestone, I finish testing the function that Zhiping and Guangzheng finished before, including the content changes, edit button test etc. |
 |Zhiping Li| In this milestone, Guangzheng and I have completed the issue of viewing and editing logged live rounds . In addition, as a code reviewer, I checked the codes of jimmytask and Jiaoqiao branches and merged the codes into main branch.  |
 
@@ -374,8 +374,8 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 
 |Issue | Test File | Feature Tested | Results Summary | 
 |------|-----------|----------------|-----------------|
-|[Issue 52#](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937409)| [Google.js](https://www.github.com/)|updating live rounds testing| [1/1 tests passed](https://yoursite.com/animated.gif) | [
-|[Issue 37#](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937354)| [routes.js](https://www.github.com/)|searching  speedgolf-friendly courses testing| [1/1 tests passed](https://yoursite.com/animated.gif) |
+|[Issue 52#](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937409)| [edit.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/EditLiveRoundDetails/edit.js)|updating live rounds testing| [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/EditLiveRoundDetails/postman%20test.gif) | [
+|[Issue 37#](https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937354)| [searchCourseTest.js.js](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/searchCourseTests/searchCourseTest.js)|searching  speedgolf-friendly courses testing| [1/1 tests passed](https://github.com/wsu-cpts489-fa21/tp-go-lakers/blob/main/tests/searchCourseTests/searchCourseTest.gif) |
   
 ### Communication
  
@@ -429,24 +429,22 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 |-------------|-------------------|
 |Jianqiao Liu| In this milestone, I finished the test of Complete view and search speedgolf-friendly golf courses #69, and did the code review of Zhiping's work |
 |Wen-Chih Li| In this milestone, I help to team up with all our teammates to make sure all of them are doing well. Also, I hold meeting every time.|
-|Guang-Zheng Lee| <*Optional but encouraged*: Brief statement explaining your communication to this milestone> |
+|Guang-Zheng Lee| In this milestone, I communicate with members on slack very often, but unfortunately I missed a meeting at 12/16. |
 |Zicheng Gu| In this mileston, I finished the test part,then ask my teammates to review and merge that, also respond to my teammates in Slack. |
 |Zhiping Li| In this milestone, when Guangzheng and I completed our issues, I asked Jiaoqiao to review our codes on Slack. After Jimmy and Jianjiao told me that they have already completed their tasks and then I undertook to do code review. |
 
 ### Retrospective
 
 [12/14/2021](https://drive.google.com/file/d/1XTczfhMz0qalPW6IyuS2mHIa00p7IVUr/view?usp=sharing)
+
 #### What went well
-  - Item 1
-  - Item 2
-  - Item x
+  Members complete task on time.
+  Members use slack very often.
+
   
  #### What we'd like to improve
-  - Item 1
-  - Item 2
-  - Item x
+  Maybe we can add more comment so that the code can be more easily to read.
+
   
 #### Changes we plan to implement in next milestone period
-  - Item 1
-  - Item 2
-  - Item x
+  TBD
