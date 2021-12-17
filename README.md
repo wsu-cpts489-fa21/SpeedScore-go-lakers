@@ -200,7 +200,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/67">PR #67</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
     </tr>
     <tr>
-     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.25</td><td>0.25</td><td>0</td><td>0.25</td><td>0.25</td><td>100</td><td>Run retorspective meeting via Zoom</td>
     </tr>
     
      <tr>
@@ -208,7 +208,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     </tr>
     
     <tr>
-      <td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>10.2</b></td><td colspan="2"></td>
+      <td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.25</b></td><td><b>8.25</b></td><td><b>8</b></td><td><b>8.25</b></td><td><b>10.25</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
