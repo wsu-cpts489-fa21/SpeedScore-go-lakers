@@ -1,0 +1,88 @@
+import { Selector } from 'testcafe';
+
+fixture `Test Edit`
+    .page `http://localhost:8081/`;
+
+test('Edit', async t => {t
+    await t
+    .click('#createAccountBtn')
+    .typeText(Selector('#email'),'zicheng.gu@wsu.edu')
+    .typeText(Selector('#password'),'Aa123456')
+    .typeText(Selector('#repeatPassword'),'Aa123456')
+    .typeText(Selector('#displayName'),'Aa123456')
+    .typeText(Selector('#securityQuestion'),'Aa123456')
+    .typeText(Selector('#securityAnswer'),'Aa123456')
+    .click("#create")
+    .typeText(Selector('#email'),'zicheng.gu@wsu.edu')
+    .typeText(Selector('#password'),'Aa123456')
+    .click('#loginBtn')
+    .click('#roundsMode')
+    //Add a record by clicking Track live button
+    .click('#roundsModeActionBtn')
+    .expect(Selector('#popUpModalContent').visible).eql(true)
+    .click('#Track_Live')
+    .expect(Selector('#Start').withText('No time recorded yet').visible).eql(true)
+    .click('#Start')
+    .expect(Selector('#Start').withText("Click again to update").visible).eql(true)
+    .click('#GotoScoring')
+    // test add a record after adding 18 holes
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .click('#Start')
+    .click('#GotoScoring')
+    .expect(Selector('td').withText('LiveLogRounds').visible).eql(true)
+    .click('#detailsBtn0')
+    // test user name on the left corner aftering adding a round
+    .expect(Selector('#appName').withText('Data for 123').visible).eql(true)
+    .click('#editDetailsBtn0')
+    // enter the edit page, change the content on the left corner
+    .expect(Selector('#appName').withText('Edit Scoring Data').visible).eql(true)
+    // edit the round
+    .click('#Plus')
+    .click('#Save')
+    .expect(Selector('td').withText('6').visible).eql(true)
+    .click('#editDetailsBtn0')
+    .click('#Minus')
+    .click('#Minus')
+    .click('#Save')
+    .expect(Selector('td').withText('4').visible).eql(true)
+    // test cancel button
+    .click('#editDetailsBtn0')
+    .click('#Cancel')
+    .expect(Selector('td').withText('4').visible).eql(true)
+
+
+             
+})
