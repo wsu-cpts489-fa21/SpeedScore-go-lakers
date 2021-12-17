@@ -199,14 +199,16 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/67">PR #67</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
     </tr>
-    
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
     </tr>
+    
      <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue #66</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100</td><td>Code review</td>
     </tr>
-    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>10.2</b></td><td colspan="2"></td>
+    
+    <tr>
+      <td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>10.2</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
@@ -436,7 +438,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
 ### Retrospective
 
 [12/14/2021](https://drive.google.com/file/d/1XTczfhMz0qalPW6IyuS2mHIa00p7IVUr/view?usp=sharing)
-
+[12/16/2021](https://drive.google.com/file/d/1--c3zXNENxhGTle4oemLVbxL7zmDFhpt/view?usp=sharing)
 #### What went well
   Members complete task on time.
   Members use slack very often.
