@@ -418,9 +418,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
       <td>12/14/21</td><td>4</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td>
     </tr>
      <tr>
-      <td>12/16/21</td><td>5</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td>
+      <td>12/16/21</td><td>10</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>9</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td><td><b>2</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>14</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td><td><b>2</b></td>
     </tr>
   </tbody>
 </table>
