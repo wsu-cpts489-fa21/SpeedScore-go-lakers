@@ -285,6 +285,7 @@ class App extends React.Component {
   }
 
   getCourses = async() => {
+    
     const url = "/courses";
     let res = await fetch(url, {
       method: 'GET',
@@ -294,14 +295,25 @@ class App extends React.Component {
                     },
               method: 'GET'
     }); 
-    const data = await res.json();
+    let data = await res.json();
     if (res.status == 201) { 
-      this.setState({
-        courses: {
-          courses: JSON.parse(data)
-        }
-      })
-      return("Get all courses.");
+      let coursesList = JSON.parse(data);
+      if (Object.keys(coursesList).length >= 100) {
+        coursesList = Object.fromEntries(Object.entries(coursesList).slice(0, 100));
+        this.setState({
+          courses: {
+            courses: coursesList
+          }
+        })
+        return("Get first 100 courses.");
+      } else {
+        this.setState({
+          courses: {
+            courses: coursesList
+          }
+        })
+        return("Get all courses.");
+      }
     } else { 
       const resText = await res.text();
       return("All courses could not be get. " + resText);
@@ -396,11 +408,11 @@ class App extends React.Component {
       return("The Round could not be deleted. " + resText);
     }
   }
-
   render() {
     return (
       <>
-        <NavBar mode={this.state.mode}
+        <NavBar courses={this.state.courses.courses}
+                mode={this.state.mode}
                 setMode={this.setMode} 
                 menuOpen={this.state.menuOpen}
                 toggleMenuOpen={this.toggleMenuOpen}
@@ -452,7 +464,8 @@ class App extends React.Component {
                         modalOpen={this.state.modalOpen}
                         toggleModalOpen={this.toggleModalOpen} 
                         menuOpen={this.state.menuOpen}
-                        userId={this.state.userId}/>,
+                        userId={this.state.userId}
+                        setCourses={this.setCourses}/>,
           BuddiesMode:
             <BuddiesPage modalOpen={this.state.modalOpen}
                         toggleModalOpen={this.toggleModalOpen} 
