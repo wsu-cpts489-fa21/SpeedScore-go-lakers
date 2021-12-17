@@ -199,6 +199,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937357">Issue #38</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/67">PR #67</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>Test "Add Course" function</td>
     </tr>
+    
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937365">Issue #41</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run retorspective meeting via Zoom</td>
     </tr>
@@ -341,6 +342,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     </tr>
      <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937395">Issue 47#</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/70R">PR 70#</a></td><td>8</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100</td><td>test function of searching  speedgolf-friendly courses</td>
+    </tr>
+     <tr>
+     <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937375">Issue #44</a></td><td></td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>100</td><td>Complete TPM 2 Report</td>
     </tr>
     <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue 66#</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100</td><td>code review for TM2</td>
