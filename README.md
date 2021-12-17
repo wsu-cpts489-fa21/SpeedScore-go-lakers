@@ -331,7 +331,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
   </thead> 
   <tbody>
     <tr>
-      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937417">Issue 55#</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/68">PR 68#</a></td><td>8</td><td>0</td><td>0</td><td>5</td><td>0</td><td>8</td><td>100</td><td>add function to update live rounds</td>
+      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937417">Issue 55#</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/68">PR 68#</a></td><td>13</td><td>0</td><td>0</td><td>5</td><td>0</td><td>8</td><td>100</td><td>add function to update live rounds</td>
     </tr>
      <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937409">Issue 52#</a></td><td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/pull/71">PR 71#</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>100</td><td>test function of updating live rounds</td>
@@ -352,7 +352,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-72937363">Issue 40#</a></td><td></td><td>1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>100</td><td>Run TPM 2 retrospective meeting</td>
     </tr>
    
-    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>8</b></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td><td><b>0.8</b></td><td><b>0.4</b></td><td colspan="2"></td>
+    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>27</b></td><td><b>15.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>8.4</b></td><td><b>10.4</b></td><td colspan="2"></td>
     </tr>
   </tbody>
 </table>
@@ -392,7 +392,7 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
     <tr>
      <td>12/14/21</td><td>15</td><td>2</td><td>4</td><td>1</td><td>3</td><td>5</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>9</b></td><td><b>3</b></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>20</b></td><td><b>2</b></td><td><b>6</b></td><td><b>3</b></td><td><b>4</b></td><td><b>5</b></td>
     </tr>
   </tbody>
 </table>
@@ -412,9 +412,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
       <td>12/14/21</td><td>4</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td><td>&check;</td>
     </tr>
      <tr>
-      <td>12/16/21</td><td>31</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td>
+      <td>12/16/21</td><td>5</td><td>&check;</td><td>&check;</td><td></td><td>&check;</td><td>&check;</td>
     </tr>
-    <tr><td align="right"><b>Totals:</b></td><td><b>4</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td><td><b>2</b></td>
+    <tr><td align="right"><b>Totals:</b></td><td><b>9</b></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td><td><b>2</b></td>
     </tr>
   </tbody>
 </table>
