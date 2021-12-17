@@ -205,6 +205,9 @@ You can access our team's deployed app at [this Heroku site](https://go-lakers12
      <tr>
      <td><a href="https://github.com/wsu-cpts489-fa21/tp-go-lakers/projects/2#card-74187580">Issue #66</a></td><td></td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>100</td><td>Code review</td>
     </tr>
+    </tr>
+    <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>47</b></td><td><b>8.5</b></td><td><b>11</b></td><td><b>9.5</b></td><td><b>8</b></td><td><b>10</b></td><td colspan="2"></td>
+    </tr>
     <tr><td colspan="2" align="right"><b>Totals:</b></td><td><b>50</b></td><td><b>15.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>8.2</b></td><td><b>10.2</b></td><td colspan="2"></td>
     </tr>
   </tbody>
