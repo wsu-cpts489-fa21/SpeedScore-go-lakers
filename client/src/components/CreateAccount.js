@@ -235,7 +235,7 @@ class CreateAccount extends React.Component {
                 />
               </label>  
               <div id="passwordDescr" className="form-text">
-                Password must be at least eight characters with at least one upper case letter, one upper case letter, and one number
+                Password must be at least eight characters with at least one upper case letter, one lower case letter, and one number
                 </div>
               </div>
               <div className="mb-3 centered">
